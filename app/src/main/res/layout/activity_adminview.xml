@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/eu"
+        android:id="@+id/img"/>
+
+    <Button
+        android:id="@+id/razzelbt"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/img"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Razzel" />
+    <Button
+        android:id="@+id/chrd"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/razzelbt"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Chords" />
+    <Button
+        android:id="@+id/captcha"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/chrd"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Captcha" />
+    <Button
+        android:id="@+id/liter"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/captcha"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Literature" />
+    <Button
+        android:id="@+id/speaks"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/liter"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Speakers" />
+
+
+</RelativeLayout>

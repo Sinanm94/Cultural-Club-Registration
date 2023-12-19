@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/euphoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:text="EUPHORIA"
+        android:textSize="45sp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/user"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:layout_marginLeft="25dp"
+        android:padding="8dp"
+        android:hint="username"
+        android:background="@drawable/edittextbackground"
+        android:drawablePadding="8dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/user"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edittextbackground"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:hint="Password"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/edittextbackground"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:hint="Confirm Password"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/sign_button"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/repassword"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/edittextbackground"
+        android:gravity="center"
+        android:text="Sign up"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/loginRedirectText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_button"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edittextbackground"
+        android:backgroundTint="#200000"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Already an user? Login"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+
+</RelativeLayout>
